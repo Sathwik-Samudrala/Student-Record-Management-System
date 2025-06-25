@@ -22,13 +22,12 @@ A robust command-line student management application built with Java featuring C
 - Preserves data between sessions
 
   ## 🏗️ Code Architecture
-Student-Record-Management-System/
-│
-├── src/
-│ ├── Student.java # Student entity class
-│ └── StudentManagementSystem.java # Main application class
-│
-├── students.dat # Auto-generated data file
+-Student-Record-Management-System
+-├── src/
+-│ ├── Student.java # Student entity class
+-│ └── StudentManagementSystem.java # Main application class
+-│
+-├── students.dat # Auto-generated data file
 
 ## 🖥️ Demonstration
 
