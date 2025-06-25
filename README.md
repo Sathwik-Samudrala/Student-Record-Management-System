@@ -21,7 +21,7 @@ A robust command-line student management application built with Java featuring C
 - Handles file corruption gracefully
 - Preserves data between sessions
 
-  ## 🏗️ Project Architecture
+## 🏗️ Project Architecture
 Student-Record-Management-System/
 │
 ├── src/
@@ -30,6 +30,7 @@ Student-Record-Management-System/
 │
 ├── students.dat                    # Auto-generated data file
 └── README.md                       # Project documentation
+
 
 ## 🖥️ Demonstration
 
