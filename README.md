@@ -23,24 +23,40 @@ A robust command-line student management application built with Java featuring C
 
 ## 🖥️ Demonstration
 
-### Successful Operations
-![Student System 1](Student-Record-SS-2.png)
-*Examples showing:*
-- Adding new students with valid data
-- Viewing all records in clean layout
-- Successful updates to existing entries
+## 🖼️ Screenshot Gallery
 
-### Error Handling
-![Student System 2](Student-Record-SS-5.png)
-*Robust validation for:*
+### 1. System Initialization
+![Fresh Start](Student-Record-SS-1.png)  
+*The system starts fresh when no previous data is found, showing the main menu and successfully adding first student records.*
+
+### 2. Comprehensive Record View
+![View All Students](Student-Record-SS-2.png)  
+*Displays all student records in a clean format, showing successful update operations (e.g., changing "Bhanu" to "SaiTeja").*
+
+### 3. Record Deletion
+![Delete Functionality](Student-Record-SS-3.png)  
+*Demonstrates successful deletion of student #102 ("Sanjay") and the updated record count.*
+
+### 4. Update Validation
+![Update Errors](Student-Record-SS-4.png)  
+*Shows proper handling of update attempts for non-existent students (ID 102 not found).*
+
+### 5. Input Validation
+![Strict Checks](Student-Record-SS-5.png)  
+*Highlights robust validation for:*
 - Invalid marks (negative/over 100)
-- Non-numeric IDs
-- Duplicate student entries
-- Empty names
+- Non-numeric input ("ten")
+- Invalid student IDs (negative/zero)
 
-## 🚀 Getting Started
+### 6. Data Persistence
+![Session Management](Student-Record-SS-6.png)  
+*Demonstrates:*
+- Loading previous session data
+- Duplicate ID prevention
+- Graceful system shutdown
 
-### Prerequisites
-- Java JDK 8+
-- Command line terminal
+## 📖 Project Description
+
+**A robust Java console application** designed to manage student records efficiently through a command-line interface. This system provides educational institutions with a simple yet powerful tool to maintain student data with full CRUD (Create, Read, Update, Delete) functionality.
+
 
