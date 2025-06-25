@@ -1,53 +1,46 @@
-# Student Record Management System (Java)
+# 🎓 Java Student Record System
 
-A command-line application built in Java to manage student records with CRUD operations, input validation, and file-based data persistence.
+A robust command-line student management application built with Java featuring CRUD operations, data persistence, and comprehensive input validation.
 
----
+## ✨ Features
 
-## Features
-- **Add Students**: Input ID, name, and marks (validated for format and range).  
-- **View All Students**: Display all records in a tabular format.  
-- **Update Students**: Modify name or marks for existing entries by ID.  
-- **Delete Students**: Remove records by ID.  
-- **Data Persistence**: Automatically saves/loads records to/from a file (e.g., `students.txt`).  
-- **Input Validation**: Ensures valid IDs (positive integers), names (non-empty), and marks (0-100).  
+### 📝 Core Operations
+- **Add Students**: `ID, Name, Marks` with validation
+- **View All**: Tabular display of all records
+- **Update Entries**: Modify names/marks by ID
+- **Delete Records**: Remove students by ID
 
----
+### 🛡️ Validation System
+- **ID Checks**: Positive integers, no duplicates
+- **Mark Validation**: 0-100 range enforced
+- **Name Rules**: Non-empty strings
+- **Error Recovery**: Re-prompt on invalid input
 
-## Screenshots
+### 💾 Data Persistence
+- Automatic save/load to `students.dat`
+- Handles file corruption gracefully
+- Preserves data between sessions
 
-### 1. Empty System Startup
-![No previous data found](Student-Record-SS-1.png)  
-*Initial state when no data file exists.*
+## 🖥️ Demonstration
 
-### 2. Adding New Students
-![Add Student with Validation](Student-Record-SS-5.png)  
-*Input validation for IDs and marks (rejects invalid entries like negative numbers or text).*
+### Successful Operations
+![Student System 1](Student-Record-SS-2.png)
+*Examples showing:*
+- Adding new students with valid data
+- Viewing all records in clean layout
+- Successful updates to existing entries
 
-### 3. Viewing All Records
-![View Student Records](Student-Record-SS-2.png)  
-*Displays all students with IDs, names, and marks.*
+### Error Handling
+![Student System 2](Student-Record-SS-5.png)
+*Robust validation for:*
+- Invalid marks (negative/over 100)
+- Non-numeric IDs
+- Duplicate student entries
+- Empty names
 
-### 4. Updating a Student
-![Update Student Record](Student-Record-SS-4.png)  
-*Error handling when updating a non-existent ID (left) vs. successful update (right).*
+## 🚀 Getting Started
 
-### 5. Deleting a Student
-![Delete Student](Student-Record-SS-3.png)  
-*Confirms deletion and updates the record count.*
+### Prerequisites
+- Java JDK 8+
+- Command line terminal
 
-### 6. System Shutdown
-![Graceful Exit](Student-Record-SS-6.png)  
-*Data saved automatically on exit.*
-
----
-
-## Requirements
-- **JDK 8+**   
-
----
-
-## How to Run
-1. **Clone the repository**:  
-   ```bash
-   git clone https://github.com/your-repo/student-record-system-java.git
