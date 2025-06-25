@@ -22,6 +22,7 @@ A robust command-line student management application built with Java featuring C
 - Preserves data between sessions
 
 ## 🏗️ Project Architecture
+``text
 Student-Record-Management-System/
 │
 ├── src/
