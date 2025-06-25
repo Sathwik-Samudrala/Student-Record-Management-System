@@ -21,6 +21,15 @@ A robust command-line student management application built with Java featuring C
 - Handles file corruption gracefully
 - Preserves data between sessions
 
+  ## 🏗️ Code Architecture
+Student-Record-Management-System/
+│
+├── src/
+│ ├── Student.java # Student entity class
+│ └── StudentManagementSystem.java # Main application class
+│
+├── students.dat # Auto-generated data file
+
 ## 🖥️ Demonstration
 
 ## 🖼️ Screenshot Gallery
@@ -63,8 +72,17 @@ javac Calculator.java
 # Run the calculator
 java Calculator
 
+## 💻 Usage Example
+Enter choice (1-5): 1
+Enter Student ID: 101
+Enter Name: John Doe
+Enter Marks (0-100): 85
+Student added successfully!
+
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
 
 ## 📖 Project Description
 
