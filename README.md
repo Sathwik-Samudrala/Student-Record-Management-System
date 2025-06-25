@@ -65,13 +65,12 @@ Student-Record-Management-System/
 - Duplicate ID prevention
 - Graceful system shutdown
 
-## Getting Started
+## How to Run
+Compile the program:
+javac StudentManagementSystem.java
 
-# Compile the program
-javac Calculator.java
-
-# Run the calculator
-java Calculator
+## Run the application
+java StudentManagementSystem
 
 ## 💻 Usage Example
 Enter choice (1-5): 1
