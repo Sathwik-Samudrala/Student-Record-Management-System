@@ -55,6 +55,15 @@ A robust command-line student management application built with Java featuring C
 - Duplicate ID prevention
 - Graceful system shutdown
 
+## Getting Started
+
+# Compile the program
+javac Calculator.java
+
+# Run the calculator
+java Calculator
+
+
 ## 📖 Project Description
 
 **A robust Java console application** designed to manage student records efficiently through a command-line interface. This system provides educational institutions with a simple yet powerful tool to maintain student data with full CRUD (Create, Read, Update, Delete) functionality.
