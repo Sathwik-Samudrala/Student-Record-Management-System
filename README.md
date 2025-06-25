@@ -11,7 +11,7 @@ A robust command-line student management application built with Java featuring C
 - **Delete Records**: Remove students by ID
 
 ### 🛡️ Validation System
-- **ID Checks**: Positive integers, no duplicates
+- **ID Checks**: Positive integers, no duplicates, no characters
 - **Mark Validation**: 0-100 range enforced
 - **Name Rules**: Non-empty strings
 - **Error Recovery**: Re-prompt on invalid input
